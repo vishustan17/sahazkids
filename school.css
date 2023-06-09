@@ -1,0 +1,195 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: rgba(0, 1, 12, 0.916);
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.colored-text{
+    display: contents;
+    align-items: center;
+    color: rgb(230, 246, 11);
+ 
+
+
+
+}
+
+
+  .colored-text span:nth-child(1) {
+    color: red;
+  }
+  .colored-text span:nth-child(2) {
+    color: orange;
+  }
+  .colored-text span:nth-child(3) {
+    color: yellow;
+  }
+  .colored-text span:nth-child(4) {
+    color: green;
+  }
+  .colored-text span:nth-child(7) {
+    color: blue;
+  }
+  .colored-text span:nth-child(6) {
+    color: indigo;
+  }
+  .colored-text span:nth-child(5) {
+    color: violet;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: rgb(91, 197, 218);
+}
+nav ul li a{
+    color: rgba(73, 199, 199, 0.84);
+    margin: 40px;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    font-size: 20px;
+    width: 100%;
+    font-weight: bolder;
+    
+}
+
+nav ul select {
+  /* background-color: rgba(0, 0, 255, 0.377);
+  color: chartreuse;
+  box-sizing: border-box 0px; */
+  display: flex;
+  padding: 8px;
+  margin: 0;
+  border-radius: 6px;
+  color: aliceblue;
+  font-weight: bold;
+  
+  
+}
+
+nav ul select {
+  animation: background 7s linear infinite;
+}
+@keyframes background {
+  30% {
+    background: rgba(255, 0, 0, 0.406);
+  }
+  30%{
+    background: #1f99b199;
+  }
+  30%{
+    background: #000b0d6f;
+  }
+  30%{
+    background: #a2f10380;
+  }
+
+  30%{
+    background: #0a11e592;
+  }
+  30%{
+    background: rgba(182, 7, 205, 0.564);
+  }
+
+  65%{
+    background: #030d0084;
+  }
+  50%{
+    background: white;
+  }
+}
+
+
+
+
+
+
+#Mission {
+    background-color: #1f99b1de;
+    padding: 30px;
+  }
+  #news{
+    display: inline-flexbox;
+    margin: 0;
+    background-color: rgba(156, 6, 164, 0.215);
+    margin-top: 0;
+    padding: 100px;
+    font-size: larger;
+    
+      background-image: url('./sahaz\ kids\ edited.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    
+    
+  }
+
+  #news h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(0, 1, 8, 0.822);
+  }
+  #news ul li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(16, 5, 13, 0.838);
+    display: -moz-box;
+    justify-content:space-between;
+  }
+
+ .footer-left{
+    color: rgba(1, 18, 18, 0.995);
+    padding: 40px;
+    
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+background-color: rgb(97, 158, 106);
+place-items: center;
+}
+.footer-middle{
+    background-color: rgba(183, 155, 29, 0.847);
+    color: rgb(2, 2, 37);
+    margin: 0;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.footer-right{
+    background-color: rgba(154, 142, 154, 0.215);
+    margin: 0;
+    padding: 30px;
+    font-family: fantasy;
+    color: rgba(0, 0, 0, 0.932);
+    /* display: flex; */
+    
+    /* margin: 100px; */
+
+}
+.footer-right li{
+  list-style: none;
+}
+
+
+
+  
+
+
+
